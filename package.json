@@ -1,0 +1,10 @@
+{
+  "name": "token-parser",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "pthrasher <philipthrasher@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "pegjs": "^0.10.0"
+  }
+}
