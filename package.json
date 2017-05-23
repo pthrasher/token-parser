@@ -4,6 +4,10 @@
   "main": "index.js",
   "author": "pthrasher <philipthrasher@gmail.com>",
   "license": "MIT",
+  "private": true,
+  "scripts": {
+    "build": "pegjs -o generatedParser.js grammar.pegjs"
+  },
   "dependencies": {
     "pegjs": "^0.10.0"
   }
